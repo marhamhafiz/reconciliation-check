@@ -1,0 +1,4 @@
+Data Recouncile Summary Report
+Date Range : Date From 2021-06-30 00:00:00 +0000 UTC to 2021-08-01 00:00:00 +0000 UTC
+Number of Source Record Processed, 10 for Own Data & 9 Bank Data
+Data Discrepancies are 3 consisting of 1 missing data, 2 differs amount, 0 differs description, 0 differs date

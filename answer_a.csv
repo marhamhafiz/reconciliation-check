@@ -1,0 +1,11 @@
+Amt,Descr,Date,ID,Remarks
+24,A,2021-06-30,zoUr,Found
+11,B,2021-06-30,zoXq,Found
+69,C,2021-07-01,zoap,Found
+30,D,2021-07-03,zodo,Missed
+86,E,2021-07-04,zogn,Found
+77,F,2021-07-07,zojm,Found&differs-on-amount(Bank=76)
+65,G,2021-07-31,zoml,Found&differs-on-amount(Bank=62)
+66,H,2021-07-06,zopk,Found
+56,I,2021-08-01,zosj,Found
+73,J,2021-07-10,zovi,Found
