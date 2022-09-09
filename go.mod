@@ -1,3 +1,3 @@
-module marhamhafiz/reconciliation-check
+module reconciliation-check
 
 go 1.19
