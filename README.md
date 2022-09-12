@@ -1,12 +1,14 @@
 ### RUN THIS APP
-After you clone thi app to your own repository,
-execute this on your own terminal to make sure you will have all source needed
+After you clone this app to your own repository,
+execute this command on your own terminal 
+to make sure you will have all source needed
 ```bash
 go mod tidy
 ```
 
-Then on your repository path, in terminal execute this command.
-to create new report make sure the file name that you pass in 
+To create new report, execut the command below on terminal 
+at your repository path.
+But, make sure the file name that you pass in 
 produce.CreateReconcilReport and produce.CreateSummaryReport
 on file main.go is not exist as file in this repository
 ```bash
