@@ -46,7 +46,7 @@ func DateRangeReport(own_data []map[string]string) string {
 		}
 	}
 
-	return "Date From " + date_from.String() + " to " + date_to.String()
+	return "Date From " + date_from.Format("02-Jan-2006") + " to " + date_to.Format("02-Jan-2006")
 }
 
 // function to create summary report after recouncile data between bank_data and own_data

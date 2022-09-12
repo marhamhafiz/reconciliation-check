@@ -4,8 +4,7 @@ import (
 	"strings"
 )
 
-// set all discrepancies counter variable
-// var disc_counter, disc_miss, disc_amount, disc_date, disc_desc int
+// set all discrepancies counter
 var discrepanciies = map[string]int{
 	"counter": 0,
 	"miss":    0,
@@ -33,24 +32,18 @@ func CheckDataForm(own_data map[string]string, bank_data map[string]string) stri
 		remark_note = remark_note + "&differs-on-amount" + "(Bank=" + bank_data["Amount"] + ")"
 		discrepanciies["counter"]++
 		discrepanciies["amount"]++
-		// disc_counter++
-		// disc_amount++
 	}
 
 	if own_data["Descr"] != bank_data["Description"] {
-		remark_note = remark_note + "&differs-on-desc" + "(Bank=" + "/" + bank_data["Description"] + ")"
+		remark_note = remark_note + "&differs-on-desc" + "(Bank=" + bank_data["Description"] + ")"
 		discrepanciies["counter"]++
 		discrepanciies["descr"]++
-		// disc_counter++
-		// disc_desc++
 	}
 
 	if own_data["Date"] != bank_data["Date"] {
-		remark_note = remark_note + "&differs-on-date" + "(Bank=" + "/" + bank_data["Date"] + ")"
+		remark_note = remark_note + "&differs-on-date" + "(Bank=" + bank_data["Date"] + ")"
 		discrepanciies["counter"]++
 		discrepanciies["date"]++
-		// disc_counter++
-		// disc_date++
 	}
 
 	return remark_note
